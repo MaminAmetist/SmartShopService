@@ -7,24 +7,6 @@
 - RabbitMQ-сервис обработки сообщений (`repair_rabbit`)
 - Брокер сообщений RabbitMQ с веб-интерфейсом
 
-## 📦 Состав проекта
-
-smartshopservice/
-├── step1_sales_django/ # Django-сервис
-│ ├── Dockerfile
-│ ├── requirements.txt
-│ └── ...
-├── step2_orders_flask/ # Flask-сервис
-│ ├── Dockerfile
-│ ├── requirements.txt
-│ └── ...
-├── step3_repair_rabbit/ # Python-сервис с RabbitMQ
-│ ├── Dockerfile
-│ ├── main.py
-│ └── ...
-├── docker-compose.yml # Запуск всех сервисов
-└── README.md
-
 ## 🌐 Сервисы и порты
 
 🧠 Django (sales): http://localhost:8000
